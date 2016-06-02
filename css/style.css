@@ -1,0 +1,282 @@
+/**Proyecto realizado en Foundation v6.2.2
+Por Manuel Díaz, JanfersVisual
+Para EscuelaWeb como proyecto final del curso
+Diseño de Interfaces Web
+Mayo 2016**/
+
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+/**PALETA DE COLORES
+Light Blue #03A9F4;
+Naranja #FFC107;
+Negro #212121;**/
+
+
+
+/**FOUNDATION MENU**/
+
+.top-bar, .top-bar ul {
+	background-color: #000;
+}
+
+.wt-brand {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+
+/**HEADER IMAGE**/
+.img-header {
+	/*margin-top: -45px;*/
+	background-image: url(../img/header.jpg);
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	background-position: cover;
+	background-attachment: fixed;
+}
+
+.texto-header {
+	color: whitesmoke;
+	padding-top: 10%;
+}
+
+.texto-bold {
+	font-weight: 900;
+	font-size: 4em;
+	letter-spacing: -2px;
+	font-family: 'Raleway'
+}
+
+.texto-light{
+	font-weight: 200;
+	font-family: 'Raleway'
+}
+
+.success.button {
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+
+hr.lineaheader {
+	border: 2px solid #FFC107;
+	max-width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/**NOSOTROS**/
+
+.bg-nosotros {
+	background-color: #03A9F4;
+}
+
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.pd-about {
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.hollow.button {
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border-color: #212121;
+	background-color: #212121;
+	color: #fff;
+}
+
+
+/**SERVICIOS**/
+
+.pd-bt {
+	padding-top: 80px;
+}
+
+.pd-bt {
+	padding-bottom: 80px;
+}
+
+.lightblue {
+	color: #03A9F4;
+}
+
+
+
+/**PORTAFOLIO**/
+
+.bg-portafolio {
+	background-color: #FFC107;
+	margin-top: 80px;
+}
+
+
+
+/**PARALLAX CONTACTO**/
+
+.parallax-contacto {
+	background: url(../img/parallax.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-attachment: fixed;
+	padding: 120px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.bg-contacto {
+	background-color: #03A9F4;
+}
+
+.fi-social-snapchat {
+	font-size: 2.5em;
+	line-height: 60px;
+	background-color: #616161;
+	color: #212121;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	padding-bottom: 30px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+}
+
+.fi-social-snapchat:hover {
+	background-color: #fffc00;
+	color: #fff;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+}
+
+.fi-social-twitter {
+	font-size: 2.5em;
+	line-height: 60px;
+	background-color: #616161;
+	color: #212121;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	padding-bottom: 30px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+
+}
+
+.fi-social-twitter:hover {
+	background-color: #55acee;
+	color: #fff;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+}
+
+.fi-social-instagram {
+	font-size: 2.5em;
+	line-height: 60px;
+	background-color: #616161;
+	color: #212121;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	padding-bottom: 30px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+
+}
+
+.fi-social-instagram:hover {
+	background-color: #bc2a8d;
+	color: #fff;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+}
+
+.fi-social-facebook {
+	font-size: 2.5em;
+	line-height: 60px;
+	background-color: #616161;
+	color: #212121;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	padding-bottom: 30px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+}
+
+.fi-social-facebook:hover {
+	background-color: #3b5998;
+	color: #fff;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transiton: all 400ms ease;
+}
+
+
+
+
+/**FOOTER**/
+
+h1>span {
+	color: #FFC107;
+}
+
+h6>span {
+	color: #FFC107;
+}
+
+.bg-ft {
+	background-color: #212121;
+	color: #fff;
+	padding:90px;
+}
+
+.copyright {
+	color: #515151;
+	letter-spacing: 4px;
+}
+
+.texto-peq {
+	font-size: 0.7em;
+}
+
+.bg-ft2 {
+	width: 100%;
+	max-width: 100%;
+	padding: 5px;
+	background-color: #000;
+	color: #616161;
+	letter-spacing: 5px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+/**MEDIAQUERYS**/
